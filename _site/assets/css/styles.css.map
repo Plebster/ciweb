@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";",
+		"body, html {\n  height: 100%;\n\tcolor: white;\n  \n}\n\nh1{\n\tfont-weight: 750;\n}\n\n.bg { \n  /* The image used */\n  background-image: url(\"../images/background.jpg\");\n\n  /* Full height */\n  height: 100%; \n\n  /* Center and scale the image nicely */\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: cover;\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,IAAI,EAAE,IAAI,CAAC,EACT,MAAM,EAAE,IAAI,EACb,KAAK,EAAE,KAAK,GAEZ;;AAED,AAAA,EAAE,CAAA,EACD,WAAW,EAAE,GAAG,GAChB;;AAED,AAAA,GAAG,CAAC,EACF,oBAAoB,CACpB,gBAAgB,EAAE,+BAA+B,EAEjD,iBAAiB,CACjB,MAAM,EAAE,IAAI,EAEZ,uCAAuC,CACvC,mBAAmB,EAAE,MAAM,EAC3B,iBAAiB,EAAE,SAAS,EAC5B,eAAe,EAAE,KAAK,GACvB"
+}
