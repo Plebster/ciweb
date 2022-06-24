@@ -1,7 +1,16 @@
-body, html { height: 100%; color: white; }
+body, html {
+  height: 100%;
+  color: white; }
 
-h1 { font-weight: 750; }
+h1 {
+  font-weight: 750; }
 
-.bg { /* The image used */ background-image: url("../images/background.jpg"); /* Full height */ height: 100%; /* Center and scale the image nicely */ background-position: center; background-repeat: no-repeat; background-size: cover; }
-
-/*# sourceMappingURL=styles.css.map */
+.bg {
+  /* The image used */
+  background-image: url("/assets/images/background.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
