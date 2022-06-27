@@ -1,6 +1,7 @@
 body, html {
   height: 100%;
-	color: white;
+	color: #111;
+  background-color: #fff;
   
 }
 
@@ -11,8 +12,8 @@ h1{
 .bg { 
   /* The image used */
   background-image: url("../images/background.jpg");
-
-
+  background-color: #000;
+  color: #fff;
   /* Full height */
   height: 100%; 
 
@@ -20,4 +21,15 @@ h1{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.main {
+  margin:3em;
+}
+
+footer {
+  padding:3em;
+  color: #fff;
+  background-color: #000;
+
 }

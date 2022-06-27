@@ -19,10 +19,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js" ></script>
     
     <!-- local style sheet-->
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 
   </head>
   <body>
+
+    
+    <div class="bg">
+      {% include navbar.html %}
+      <div class="h-100 d-flex flex-column justify-content-center align-items-center">
+          <img src="{{site.baseurl}}/assets/images/ci-logo.png" class="w-25" alt="Cooperative IT Logo">
+          <h1>COOPERATIVE IT</h1>
+      </div>
+      </div>
+      
+      
+      <section class="main">
     {{ content }}
+        </section>
+    <footer>
+      {% include footer.html %} 
+    </footer>
   </body>
 </html>
