@@ -1,0 +1,37 @@
+  <div>
+    <div class="row justify-content-evenly">
+      
+      <div class="col-4">
+        <h2 class="footer-heading">{{ site.full_company_name | escape }}</h2>
+
+        <ul class="list-unstyled">
+            {%- if site.address -%}
+            <li></li>
+              {{ site.address | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            </li>
+          {%- endif -%}
+          
+
+            {%- if site.email -%}
+            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+            {%- if site.company_no -%}
+            <li>Company No: {{ site.company_no | escape }}</li>
+            {%- endif -%}
+            <li>
+              <a href="https://www.twitter.com/{{ site.twitter_username }}"><i class="fab fa-twitter"></i> {{ site.twitter_username | escape }}</a>
+            </li>
+            <li>
+              <a href="https://www.github.com/{{ site.github_username| cgi_escape | escape }}"><i class="fab fa-github"></i> {{ site.github_username| cgi_escape | escape }}</a>
+            </li>
+        </ul>
+      </div>
+
+      <div class="col-4">
+        <p>{{- site.description | escape -}}</p>
+      </div>
+    
+    </div>
+  </div>
